@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    
+    <div class="left"></div>
+    <div class="right">
+        <div class="one">
+            <p>This is not a real online service! You know you need something like this in your life to help you realise
+                your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="two">
+            <p>Let's do this!</p>
+            <form action="#" method="get">
+                <div class="first-row">
+                <div class="form-div">
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" name="firstname" id="fname">
+                </div>
+
+                <div class="form-div">
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" name="lastname" id="lname">
+                </div>
+            </div>
+
+            <div class="second-row">
+                <div class="form-div">
+                    <label for="emailid">EMAIL</label>
+                    <input type="email" name="email" id="emailid">
+                </div>
+
+                <div class="form-div">
+                    <label for="phnum">PHONE NUMBER</label>
+                    <input type="tel" name="phonenum" id="phnum">
+                </div>
+            </div>
+
+            <div class="third-row">
+                <div class="form-div">
+                    <label for="pwd">PASSWORD</label>
+                    <input type="text" name="pwd" id="pwd">
+                </div>
+
+                <div class="form-div">
+                    <label for="cpwd">CONFIRM PASSWORD</label>
+                    <input type="text" name="cpwd" id="cpwd">
+                </div>
+            </div>
+
+            </form>
+        </div>
+
+        <div class="three">
+            <button type="submit" class="btn">Create Account</button>
+            <div>Already have an account? <a href="">Log in</a></div>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
+
+<!-- https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-positioning
+ for odin img over the image -->

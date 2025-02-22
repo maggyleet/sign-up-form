@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    background: url('peter-emery-3laQjMkyCRM-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 30vw;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    background-color: #f9fafb;
+}
+
+.btn {
+    background-color: darksalmon;
+    height: 50px;
+    width: 200px;
+    border-radius: 0.5em;
+    /* box-shadow: gray; */
+}
+
+.one{
+    height: 30vh;
+    padding-left: 5%;
+    padding-top: 8%; 
+    padding-bottom: 2%;
+    padding-right: 10%;
+}
+
+.two {
+    background-color: white;
+    height: 40vh;
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+.three{
+    height: 30vh;
+    padding-left: 5%;
+    padding-top: 4%;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
