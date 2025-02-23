@@ -25,7 +25,7 @@ body {
 }
 
 .btn {
-    background-color: darksalmon;
+    background-color: #47599f;
     height: 50px;
     width: 200px;
     border-radius: 0.5em;
@@ -41,14 +41,24 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+    font-weight: 700;    
 }
 
 .two {
     background-color: white;
-    height: 35vh;
+    height: 40vh;
     padding-left: 5%;
-    padding-top: 4%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .three{
@@ -58,19 +68,15 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
-
-/* .form-div{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-} */
 
 .first-row,.second-row,.third-row{
     display: flex;
     gap: 20px;
 }
+
+
 
 a {
     text-decoration: none;
@@ -79,6 +85,7 @@ a {
 .main{
     display: flex;
     flex-direction: column;
+    font-size: 15px;
 }
 
 label {
@@ -87,7 +94,55 @@ label {
 }
 
 input {
-    /* width: 100%;  */
     padding: 3px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
 
+input:focus {
+    border: 2px solid #89CFF0;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+/* input[type="text"] {
+    padding-left: 6px;
+
+}
+
+input:focus {
+    border: 1px solid #89CFF0;
+}
+
+input:invalid {
+    border: 1px solid red;
+} */
+
+/* input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+} */
+
+
+.for-logo {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.for-transparency {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.3);
+
+}
+
+a{
+    color: #47599f;
+    font-weight: 700;
 }
