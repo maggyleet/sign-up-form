@@ -8,8 +8,22 @@ body {
     height: 100vh;
 }
 
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Norse', sans-serif;
+    font-size: 3.5em; /* Adjust size as needed */
+    font-weight: bold;
+    color: white; /* Adjust color as needed */
+}
+
 .left {
-    background: url('peter-emery-3laQjMkyCRM-unsplash.jpg');
+    background: url('images/peter-emery-3laQjMkyCRM-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 30vw;
@@ -25,11 +39,17 @@ body {
 }
 
 .btn {
-    background-color: #47599f;
+    background-color: #4754ff;
     height: 50px;
     width: 200px;
     border-radius: 0.5em;
+    cursor: pointer;
+    color: white;
     /* box-shadow: gray; */
+}
+
+.btn:hover{
+    background-color: #47599f;
 }
 
 .one{
@@ -90,40 +110,21 @@ a {
 
 label {
     display: block;
-    margin-bottom: 5px; /* Adds space between label and input */
+    margin-bottom: 5px; 
 }
 
 input {
     padding: 3px;
     border-radius: 4px;
-    border: 2px solid black;
+    border: 2px solid #d0d3d7;
+    outline: none;
+    font-size: 16px;
 }
 
 input:focus {
-    border: 2px solid #89CFF0;
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
 }
-
-input:invalid {
-    border: 2px solid red;
-}
-
-/* input[type="text"] {
-    padding-left: 6px;
-
-}
-
-input:focus {
-    border: 1px solid #89CFF0;
-}
-
-input:invalid {
-    border: 1px solid red;
-} */
-
-/* input:invalid:required {
-    background-image: linear-gradient(to right, pink, lightgreen);
-} */
-
 
 .for-logo {
     height: 40vh;
@@ -143,6 +144,6 @@ input:invalid {
 }
 
 a{
-    color: #47599f;
+    color: #4754ff;
     font-weight: 700;
 }
